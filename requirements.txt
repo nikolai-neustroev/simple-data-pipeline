@@ -1,5 +1,5 @@
 clickhouse-driver==0.2.9
 kafka-python-ng==2.2.2
-numpy==2.1.1
+numpy==2.0.2
 pytz==2024.2
 tzlocal==5.2

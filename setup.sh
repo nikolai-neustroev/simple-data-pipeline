@@ -5,7 +5,7 @@ set -e
 
 # Create the Airflow database
 echo "Creating Airflow database..."
-docker-compose exec postgres-airflow psql -U postgres -c "CREATE DATABASE IF NOT EXISTS airflow;"
+docker-compose exec postgres-airflow psql -U postgres -c "CREATE DATABASE airflow;"
 
 # Initialize the Redash database
 echo "Initializing Redash database..."
